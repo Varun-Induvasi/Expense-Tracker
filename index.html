@@ -12,8 +12,15 @@
         <form action="" id="expense-tracker">
             <input type="text" id="expense-name" placeholder="Expense Name" required>
             <input type="text" id="expense-amount" placeholder="Expense Amount" required>
-            <button type="submit"></button>
+            <button type="submit">Add Expense</button>
         </form>
+        <h2>Expenses</h2>
+        <ul id="expense-list">
+            <!-- Expenses will be dynamically added here -->
+        </ul>
+        <div id="total">
+            <h3>Total : $<span id="total-amount">0.0</span></h3>
+        </div>
     </div>
 
     <script src="script.js"></script>
